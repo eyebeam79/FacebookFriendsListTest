@@ -21,6 +21,8 @@
 		B319B1B7188E5AB9005F4D41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B319B199188E5AB9005F4D41 /* UIKit.framework */; };
 		B319B1BF188E5AB9005F4D41 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B319B1BD188E5AB9005F4D41 /* InfoPlist.strings */; };
 		B319B1C1188E5ABA005F4D41 /* FacebookFriendsListTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B319B1C0188E5ABA005F4D41 /* FacebookFriendsListTestTests.m */; };
+		B319B1CB188E5AD6005F4D41 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B319B1CA188E5AD6005F4D41 /* Social.framework */; };
+		B319B1CD188E5AE2005F4D41 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B319B1CC188E5AE2005F4D41 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		B319B1BC188E5AB9005F4D41 /* FacebookFriendsListTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FacebookFriendsListTestTests-Info.plist"; sourceTree = "<group>"; };
 		B319B1BE188E5AB9005F4D41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B319B1C0188E5ABA005F4D41 /* FacebookFriendsListTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookFriendsListTestTests.m; sourceTree = "<group>"; };
+		B319B1CA188E5AD6005F4D41 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		B319B1CC188E5AE2005F4D41 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B319B1CD188E5AE2005F4D41 /* Accounts.framework in Frameworks */,
+				B319B1CB188E5AD6005F4D41 /* Social.framework in Frameworks */,
 				B319B198188E5AB9005F4D41 /* CoreGraphics.framework in Frameworks */,
 				B319B19A188E5AB9005F4D41 /* UIKit.framework in Frameworks */,
 				B319B196188E5AB9005F4D41 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,8 @@
 		B319B194188E5AB9005F4D41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B319B1CC188E5AE2005F4D41 /* Accounts.framework */,
+				B319B1CA188E5AD6005F4D41 /* Social.framework */,
 				B319B195188E5AB9005F4D41 /* Foundation.framework */,
 				B319B197188E5AB9005F4D41 /* CoreGraphics.framework */,
 				B319B199188E5AB9005F4D41 /* UIKit.framework */,
